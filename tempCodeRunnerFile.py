@@ -26,7 +26,7 @@ print(mrz_data['type'])
 
 
 # Process image
-mrz = read_mrz("passport69.jpg")
+mrz = read_mrz("https://w0.peakpx.com/wallpaper/368/441/HD-wallpaper-cute-anime-girl-anime-cat-girl-anime-girl-cartoon-cat-girl-cute-anime.jpg")
 if mrz is None:
     print("No MRZ found")
     exit(1)
